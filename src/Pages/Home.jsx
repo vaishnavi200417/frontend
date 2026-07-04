@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Sidebar from "../Components/Sidebar"
+import Sidebar from "../Components/Sidebar.jsx"
 
 function Home() {
   const user = JSON.parse(localStorage.getItem("user"));
